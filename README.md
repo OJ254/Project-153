@@ -1,69 +1,53 @@
-QR Code Generator
 
-This is a simple Node.js application that takes a user-provided URL, generates a QR code for it, and saves both the QR code image and the URL in a text file.
+# **QR Code Generator**  
 
-Features
+This project is a **QR Code Generator** that takes a user-inputted URL and creates a QR code image, saving it as a `.png` file. Additionally, it saves the entered URL in a text file.  
 
-Uses the inquirer package to prompt the user for a website URL.
+## **Features**  
+✔️ Accepts a website URL from the user  
+✔️ Generates a QR code and saves it as `qr_img.png`  
+✔️ Stores the entered URL in `URL.txt`  
+✔️ Uses `inquirer` for user input  
 
-Generates a QR code image using the qr-image package.
+## **Technologies Used**  
+- **Node.js**  
+- **Inquirer.js** (for user input)  
+- **qr-image** (to generate QR codes)  
+- **fs (File System)** (to handle file operations)  
 
-Saves the QR code as a .png file.
+## **Installation & Usage**  
 
-Stores the user-entered URL in a text file.
+### **1. Clone the repository**  
+```bash
+git clone <repository_url>
+cd <project_folder>
+```
 
-Prerequisites
+### **2. Install dependencies**  
+```bash
+npm install
+```
 
-Ensure you have the following installed before running the project:
-
-Node.js (latest LTS recommended)
-
-npm (comes with Node.js)
-
-Installation
-
-Clone this repository or download the files.
-
-Open a terminal and navigate to the project directory.
-
-Run the following command to install dependencies:
-
-npm install inquirer qr-image
-
-Usage
-
-To run the script, use the following command:
-
+### **3. Run the script**  
+```bash
 node index.js
+```
 
-How It Works
+### **4. Enter the website URL**  
+When prompted, enter the URL for which you want to generate a QR code.  
 
-The script prompts the user to enter a website URL.
+### **5. Check output files**  
+- The generated QR code image will be saved as `qr_img.png`.  
+- The URL you entered will be saved in `URL.txt`.  
 
-It generates a QR code image and saves it as qr_img.png.
+## **Dependencies**  
+To run this project, you need the following dependencies installed:  
+```bash
+npm install inquirer qr-image fs
+```
 
-It writes the user-entered URL to URL.txt.
+## **License**  
+This project is licensed under the **MIT License**.  
 
-File Structure
-
-/qr-code-generator
-│── index.js       # Main script file
-│── package.json   # Project dependencies
-│── qr_img.png     # Generated QR code image
-│── URL.txt        # Stores the entered URL
-
-Dependencies
-
-This project uses the following npm packages:
-
-inquirer - Used to get user input from the command line.
-
-qr-image - Used to generate the QR code.
-
-License
-
-This project is open-source and available under the MIT License.
-
-Author
-
-Developed by Japheth Oruko.
+---
+Feel free to modify the project to fit your needs! 🚀
