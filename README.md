@@ -54,4 +54,4 @@ Feel free to modify the project to fit your needs! 🚀
 
 ## **Author**
 
-Developed by [Your Name].
+Developed by Japheth Oruko.
