@@ -51,3 +51,7 @@ This project is licensed under the **MIT License**.
 
 ---
 Feel free to modify the project to fit your needs! 🚀
+
+## **Author**
+
+Developed by [Your Name].
