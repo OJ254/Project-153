@@ -19,7 +19,7 @@ This project is a **QR Code Generator** that takes a user-inputted URL and creat
 
 ### **1. Clone the repository**  
 ```bash
-git clone <repository_url>
+git clone git@github.com:OJ254/Project-153.git
 cd <project_folder>
 ```
 
